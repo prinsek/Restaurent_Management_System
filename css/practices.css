@@ -1,0 +1,140 @@
+html {
+	background-color:#ffe6e6; 
+}
+body {
+	font-family: tahoma,sans-serif;
+	font-weight: normal;
+	font-size: 87%;
+}
+
+.container {
+	max-width: 94%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	padding-left: 35px;
+	padding-right: 35px;
+	box-sizing: border-box;
+	padding-bottom: 30px;
+	height: 704px;
+ 	overflow-x: hidden; 
+    overflow-y: auto; 
+    text-align:justify; 
+  
+ 
+
+}                 
+ 
+header {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+header h1 {
+	font-weight: normal;
+	font-size: 100px;
+	text-align: center;
+	text-shadow: 15px;
+	margin: 0;
+}
+header p {
+	margin: 0;
+	font-weight: normal;
+	font-size: 15px;
+	text-align: center;
+	padding: -15px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 13px;
+  font-weight: normal;
+  }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ 
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {color:#b30000;}
+
+
+
+
+nav {
+	margin-top: 20px;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+li {
+list-style: none;
+float: left;
+}
+nav a {
+	display: inline;
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+    padding: 10px 20px;
+}
+nav a:hover {
+   color: #b30000;
+}
+footer {
+	
+	text-align: center;
+}
+div img{
+	padding-top: 13px;
+}
+.box {
+	padding: 20px;
+}
+div .testing {
+	padding-bottom: 5px;
+
+}
+div table {
+	box-sizing: border-box;
+}
+select {
+	display: table;
+}
+option {
+	background-color: #f7f6da;
+}
+.button {
+  background-color: #ff000c;
+  border: 1px solid black;
+  color: white;
+  width: 142px;
+  padding: 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button:hover {
+	background-color:#c21018; 
+}
+.foot p {
+  color: red;
+  font-size: 11px;	
+}
